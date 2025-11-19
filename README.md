@@ -12,6 +12,3 @@ Quick start:
 3. Run: `npm start` (or `expo start`)
 4. Open in simulator or Expo Go.
 
-Notes:
-- This project is for educational/demo use and stores credentials in AsyncStorage (not secure for production).
-- Files included: App.tsx, src/ (screens, navigation, utils, components)
