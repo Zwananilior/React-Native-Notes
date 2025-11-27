@@ -23,13 +23,6 @@ export const saveNotes = async (email:string, notes:Note[]) => {
   await AsyncStorage.setItem(getNotesKey(email), JSON.stringify(notes));
 };
 
-export const addNote = async (email:string, note: Omit<Note,'id'|'createdAt'>) => {
-  const notes = await loadNotes(email);
-  const newNote: Note = {...note, id: uuidv4(), createdAt: new Date().toISOString()};
-  notes.push(newNote);
-  await saveNotes(email, notes);
-  return newNote;
-};
 
 export const updateNote = async (email:string, id:string, updates: Partial<Note>) => {
   const notes = await loadNotes(email);
