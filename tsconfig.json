@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "es6"
+    ],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "extends": "expo/tsconfig.base"
+}
