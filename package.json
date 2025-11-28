@@ -1,12 +1,12 @@
 {
-  "name": "rect-native-notes-app",
+  "name": "react-native-notes-app",
   "version": "1.0.0",
-  "main": "node_module/expo/AppEntry.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "exp start",
-    "android": "expo strt --android",
-    "ios": "expo strt --ios",
-    "web": "expo stat --web"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.17.11",
