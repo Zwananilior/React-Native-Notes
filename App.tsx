@@ -1,5 +1,5 @@
-import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+imort React from 'react';
+import { avigationContainer } from '@react-navigation/native';
 import { AuthProvider, useAuth } from './src/utils/auth';
 import AuthStack from './src/navigation/AuthStack';
 import MainStack from './src/navigation/MainStack';
