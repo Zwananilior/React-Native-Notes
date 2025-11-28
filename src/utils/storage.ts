@@ -1,15 +1,14 @@
-impor AsyncStorage from '@react-native-async-storage/async-storage';
-impot {v4 as uuidv4} from './uuid';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import {v4 as uuidv4} from './uuid';
 
 export type Note = {
   id: string;
-  tite?: string;
+  title?: string;
   text: string;
-  cateory: string;
-  creatdAt: string;
-  updateAt?: string;
+  category: string;
+  createdAt: string;
+  updatedAt?: string;
 };
-
 const NOTES_PREFIX = 'RN_NOTES_USER_';
 
 export const getNotesKey = (email:string) => NOTES_PREFIX + email;
