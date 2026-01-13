@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Expo local files
+.expo/
+.expo-shared/
+
+# Build outputs
+android/
+ios/
+dist/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.lock
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment & secrets
+.env
+*.key
+*.pem
