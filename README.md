@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 📱 Notes App (Expo + TypeScript)
 
 A simple and clean Notes App built with React Native, Expo SDK 54, and TypeScript.
@@ -51,3 +52,19 @@ App loads immediately
 📝 License
 
 This project is open-source and available under the MIT License.
+=======
+# React Native Notes App (Expo + TypeScript)
+
+This is a simple secure notes application for assessment:
+- Authentication (register/login) stored in AsyncStorage
+- Protected routing (auth flow)
+- Notes CRUD with categories, search, sorting, timestamps
+- Uses AsyncStorage as the data store
+
+
+Quick start:
+1. Install Expo CLI: `npm install -g expo-cli`
+2. Install dependencies: `npm install`
+3. Run: `npm start` (or `expo start`)
+4. Open in simulator or Expo Go
+>>>>>>> 36d06f57e01096206aa8f6a06b7798b7e84d2e39

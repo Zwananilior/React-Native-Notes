@@ -1,5 +1,13 @@
 {
+<<<<<<< HEAD
   "android": {
     "package": "com.anonymous.mynotesappfullts"
+=======
+  "expo": {
+    "name": "RN Notes App",
+    "slug": "rn-notes-app",
+    "version": "1.0.0",
+    "sdkVersion": "48.0.0"
+>>>>>>> 36d06f57e01096206aa8f6a06b7798b7e84d2e39
   }
 }
